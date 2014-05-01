@@ -6,36 +6,46 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_mask</sprite>
-    <sprite>sprites\spr_idle</sprite>
-    <sprite>sprites\spr_fallingfacing</sprite>
-    <sprite>sprites\spr_walking</sprite>
-    <sprite>sprites\spr_jumping</sprite>
-    <sprite>sprites\spr_falling</sprite>
-    <sprite>sprites\spr_walkingback</sprite>
-    <sprite>sprites\spr_jumpingfacing</sprite>
-    <sprite>sprites\spr_facing</sprite>
-    <sprite>sprites\spr_bulletblue</sprite>
-    <sprite>sprites\spr_bulletred</sprite>
-    <sprite>sprites\spr_enemyup</sprite>
-    <sprite>sprites\spr_enemy</sprite>
-    <sprite>sprites\spr_groundturretgun</sprite>
-    <sprite>sprites\spr_groundturretbase</sprite>
-    <sprite>sprites\spr_wall</sprite>
-    <sprite>sprites\spr_linefloor</sprite>
-    <sprite>sprites\spr_bulletbluehit</sprite>
-    <sprite>sprites\spr_alerted</sprite>
-    <sprite>sprites\spr_switch</sprite>
-    <sprite>sprites\spr_doorclosed</sprite>
-    <sprite>sprites\spr_dooropened</sprite>
-    <sprite>sprites\spr_fanoff</sprite>
-    <sprite>sprites\spr_fanblue</sprite>
-    <sprite>sprites\spr_fangreen</sprite>
-    <sprites name="popups">
+    <sprites name="Player Sprites">
+      <sprite>sprites\spr_mask</sprite>
+      <sprite>sprites\spr_idle</sprite>
+      <sprite>sprites\spr_facing</sprite>
+      <sprite>sprites\spr_walking</sprite>
+      <sprite>sprites\spr_walkingback</sprite>
+      <sprite>sprites\spr_jumping</sprite>
+      <sprite>sprites\spr_jumpingfacing</sprite>
+      <sprite>sprites\spr_falling</sprite>
+      <sprite>sprites\spr_fallingfacing</sprite>
+    </sprites>
+    <sprites name="Enemy Sprites">
+      <sprite>sprites\spr_enemy</sprite>
+      <sprite>sprites\spr_enemyup</sprite>
+      <sprite>sprites\spr_groundturretgun</sprite>
+      <sprite>sprites\spr_groundturretbase</sprite>
+    </sprites>
+    <sprites name="Projectiles">
+      <sprite>sprites\spr_bulletblue</sprite>
+      <sprite>sprites\spr_bulletred</sprite>
+      <sprite>sprites\spr_bulletbluehit</sprite>
+    </sprites>
+    <sprites name="Hacking Objectives">
+      <sprite>sprites\spr_switch</sprite>
+      <sprite>sprites\spr_doorclosed</sprite>
+      <sprite>sprites\spr_dooropened</sprite>
+      <sprite>sprites\spr_fanoff</sprite>
+      <sprite>sprites\spr_fanblue</sprite>
+      <sprite>sprites\spr_fangreen</sprite>
+    </sprites>
+    <sprites name="Pop - Ups">
       <sprite>sprites\spu_fanActivated</sprite>
       <sprite>sprites\spu_doorUnlocked</sprite>
+      <sprite>sprites\spr_alerted</sprite>
+      <sprite>sprites\spr_healthbar</sprite>
     </sprites>
-    <sprite>sprites\spr_healthbar</sprite>
+    <sprites name="Walls and Floors">
+      <sprite>sprites\spr_wall</sprite>
+      <sprite>sprites\spr_linefloor</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\ctile_constructionfloor</background>
@@ -71,7 +81,7 @@
     <object>objects\obj_healthbar</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
+    <room>rooms\rm_testroom1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
