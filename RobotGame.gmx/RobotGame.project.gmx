@@ -71,14 +71,14 @@
     <object>objects\obj_fanOff</object>
     <object>objects\obj_fanGreen</object>
     <object>objects\obj_fanBlue</object>
-    <objects name="popups">
-      <object>objects\pu_fanActivated</object>
-      <object>objects\pu_doorUnlocked</object>
-    </objects>
     <object>objects\obj_ground</object>
     <object>objects\obj_enemyground</object>
     <object>objects\obj_turrethead</object>
     <object>objects\obj_healthbar</object>
+    <objects name="popups">
+      <object>objects\pu_fanActivated</object>
+      <object>objects\pu_doorUnlocked</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_testroom1</room>
